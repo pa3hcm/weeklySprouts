@@ -46,7 +46,7 @@ void loop() {
   // Wait for 6 hours
   int minutes = INTERVAL * 60;
   for(int minute=1; minute<=minutes; minute++) {
-    for(int second=1; second<=10; second++) {
+    for(int second=1; second<=60; second++) {
       if (second==10) {
         digitalWrite(P_LED, HIGH);
         delay(950);
