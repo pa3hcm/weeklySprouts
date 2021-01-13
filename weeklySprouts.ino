@@ -2,7 +2,7 @@
   Project:     weeklySprouts
   Source:      http://github.com/pa3hcm/weeklySprouts
   Authors:     Ernest Neijenhuis
-  Copyright:   (c) 2020 Ernest Neijenhuis PA3HCM
+  Copyright:   (c) 2021 Ernest Neijenhuis PA3HCM
 */
 
 
@@ -14,7 +14,7 @@ const int P_PUMP   = 12; // Connected to relay module to activate pump
 const int P_LED    = 13; // LED flashes to show it's still running
 
 // Settings
-const int INTERVAL = 6; // Pump interval time [hours]
+const int INTERVAL = 24; // Pump interval time [hours]
 const int RUNTIME  = 3; // Pump run time [seconds]
 
 
